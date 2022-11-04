@@ -31,6 +31,33 @@ button {
 }
 
 /* HERO SECTION */
+
+/* HEADER SECTION */
+header{
+	height: 60px;
+	background-color: var(--dark);
+	color: var(--light);
+	text-transform: uppercase;
+}
+
+header .container{
+	height: 100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_logo{
+	font-size: 28px;
+	
+}
+
+.header_link{
+	font-size: 22px;
+	margin-left: 15px;
+}
+/* HEADER SECTION */
+
 .hero {
 	position: relative;
 	display: flex;
